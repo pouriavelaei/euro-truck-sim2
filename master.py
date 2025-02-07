@@ -63,16 +63,15 @@ while True:
                 keyboard.write("gay")
 
             elif fingers == [1, 1, 1, 1, 1]:  
-                keyboard.write("abol konie")
+                keyboard.press_and_release("w")
             elif fingers == [0, 1, 0, 0, 0]:  
-                keyboard.write("i'm nerd")
+                keyboard.press_and_release("s")
             elif fingers == [0, 1, 1, 0, 0]:  
-                print("علامت صلح ✌️")
+                keyboard.press_and_release("a")
             elif fingers == [1, 0, 0, 0, 0]:  
-                print("لایک 👍")
+                keyboard.press_and_release("d")
             elif fingers == [0, 1, 1, 1, 1]:  
-                print("چهار انگشت باز است 🤚")
-            time.sleep(1)
+                keyboard.press_and_release("q")
         
             
             # نمایش نقاط کلیدی روی دست

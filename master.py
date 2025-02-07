@@ -60,20 +60,19 @@ while True:
 
             # استفاده از if برای بررسی وضعیت دست
             if fingers == [0, 0, 0, 0, 0]:  
-                keyboard.press("w")
-                keyboard.release("w")
+                keyboard.write("gay")
 
             elif fingers == [1, 1, 1, 1, 1]:  
-                keyboard.press_and_release("s")
+                keyboard.write("abol konie")
             elif fingers == [0, 1, 0, 0, 0]:  
-                keyboard.press_and_release("a")
-            #elif fingers == [0, 1, 1, 0, 0]:  
-                #print("علامت صلح ✌️")
-            #elif fingers == [1, 0, 0, 0, 0]:  
-                #print("لایک 👍")
-            #elif fingers == [0, 1, 1, 1, 1]:  
-                #print("چهار انگشت باز است 🤚")
-
+                keyboard.write("i'm nerd")
+            elif fingers == [0, 1, 1, 0, 0]:  
+                print("علامت صلح ✌️")
+            elif fingers == [1, 0, 0, 0, 0]:  
+                print("لایک 👍")
+            elif fingers == [0, 1, 1, 1, 1]:  
+                print("چهار انگشت باز است 🤚")
+            time.sleep(1)
         
             
             # نمایش نقاط کلیدی روی دست
